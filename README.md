@@ -1,11 +1,18 @@
 A tool for splitting tags into Markdown Frontmatter format.
 
-## MacOS
+# Install
+
+```sh
+python3 setup.py develop
+```
+
+# Use
+## macOS
 Replace current paste-board contents with parsed tags:
 
 ```sh
-  pbcopy | python3 tagsplit.py | pbpaste
+  pbcopy | tagsplit | pbpaste
 ```
 
 # License
-GNU GPLv3 
+GNU GPLv3
